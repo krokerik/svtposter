@@ -13,8 +13,6 @@ window.onload = function(){
 			var imgcell = newRow.insertCell(1);
 			urlcell.innerHTML = "<a href=\"https://www.svtstatic.se/image/custom/2000/"+i+"/"+extra+"\">link</a>";
 			imgcell.innerHTML = "<img src=\"https://www.svtstatic.se/image/custom/2000/"+i+"/"+extra+"\"/>";
-			console.log("https://www.svtstatic.se/image/custom/2000/"+i+"/"+extra);
 		}
-		console.log(m);
 	};
 };
